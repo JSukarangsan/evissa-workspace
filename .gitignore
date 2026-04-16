@@ -1,0 +1,7 @@
+# OpenClaw internal state
+.openclaw/
+state/
+memory/*.log
+
+# OS files
+.DS_Store
