@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    width: 1080px;
+    height: 1080px;
+    background: #0F1117;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    overflow: hidden;
+  }
+
+  .title {
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: -0.5px;
+    margin-bottom: 56px;
+    color: #E2E8F0;
+    text-align: center;
+  }
+
+  .title span {
+    color: #60A5FA;
+  }
+
+  .stack {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0;
+    width: 780px;
+  }
+
+  .layer {
+    width: 100%;
+    padding: 36px 48px;
+    border: 1px solid rgba(255,255,255,0.08);
+    position: relative;
+  }
+
+  .layer-top {
+    background: linear-gradient(135deg, #1E293B 0%, #1a2332 100%);
+    border-radius: 6px 6px 0 0;
+    border-bottom: 1px solid rgba(255,255,255,0.06);
+  }
+
+  .layer-mid {
+    background: linear-gradient(135deg, #1E3A5F 0%, #1a3355 100%);
+    border-top: none;
+    border-bottom: none;
+    padding: 40px 48px;
+  }
+
+  .layer-mid .layer-accent {
+    position: absolute;
+    left: 0; right: 0; top: 0;
+    height: 3px;
+    background: linear-gradient(90deg, #3B82F6, #60A5FA, #3B82F6);
+  }
+
+  .layer-mid .layer-accent-bottom {
+    position: absolute;
+    left: 0; right: 0; bottom: 0;
+    height: 3px;
+    background: linear-gradient(90deg, #3B82F6, #60A5FA, #3B82F6);
+  }
+
+  .layer-bottom {
+    background: linear-gradient(135deg, #1E293B 0%, #1a2332 100%);
+    border-radius: 0 0 6px 6px;
+    border-top: 1px solid rgba(255,255,255,0.06);
+  }
+
+  .layer-label {
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 12px;
+  }
+
+  .layer-top .layer-label,
+  .layer-bottom .layer-label { color: #94A3B8; }
+  .layer-mid .layer-label { color: #93C5FD; }
+
+  .layer-title {
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 8px;
+  }
+
+  .layer-top .layer-title,
+  .layer-bottom .layer-title { color: #94A3B8; }
+  .layer-mid .layer-title { color: #fff; }
+
+  .layer-desc {
+    font-size: 17px;
+    line-height: 1.5;
+  }
+
+  .layer-top .layer-desc,
+  .layer-bottom .layer-desc { color: #94A3B8; }
+  .layer-mid .layer-desc { color: #BFDBFE; }
+
+  .layer-tags {
+    display: flex;
+    gap: 10px;
+    margin-top: 16px;
+    flex-wrap: wrap;
+  }
+
+  .tag {
+    font-size: 13px;
+    font-weight: 500;
+    padding: 5px 14px;
+    border-radius: 100px;
+    background: rgba(255,255,255,0.06);
+    color: #94A3B8;
+  }
+
+  .layer-mid .tag {
+    background: rgba(96, 165, 250, 0.15);
+    color: #93C5FD;
+  }
+
+  .badge {
+    position: absolute;
+    top: 16px;
+    right: 20px;
+    background: rgba(96, 165, 250, 0.2);
+    color: #60A5FA;
+    font-size: 12px;
+    font-weight: 700;
+    padding: 5px 14px;
+    border-radius: 100px;
+    letter-spacing: 1px;
+    border: 1px solid rgba(96, 165, 250, 0.3);
+  }
+
+  .change-badge {
+    position: absolute;
+    top: 16px;
+    right: 20px;
+    font-size: 11px;
+    font-weight: 600;
+    padding: 4px 12px;
+    border-radius: 100px;
+    letter-spacing: 1px;
+    background: rgba(255,255,255,0.04);
+    color: #475569;
+    border: 1px solid rgba(255,255,255,0.06);
+  }
+
+  .arrow-between {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 32px;
+    font-size: 18px;
+    color: #334155;
+    letter-spacing: 6px;
+  }
+
+  .footer {
+    margin-top: 48px;
+    font-size: 15px;
+    color: #64748B;
+    letter-spacing: 0.5px;
+    font-weight: 500;
+  }
+</style>
+</head>
+<body>
+
+  <div class="title">The <span>AGENTS.md</span> Layer</div>
+
+  <div class="stack">
+
+    <div class="layer layer-top">
+      <div class="change-badge">↕ CHANGES</div>
+      <div class="layer-label">Top Layer</div>
+      <div class="layer-title">Your Projects & Teams</div>
+      <div class="layer-desc">Products, workflows, and team needs change constantly</div>
+      <div class="layer-tags">
+        <span class="tag">Projects</span>
+        <span class="tag">Workflows</span>
+        <span class="tag">Team Needs</span>
+        <span class="tag">Use Cases</span>
+      </div>
+    </div>
+
+    <div class="arrow-between">▼ ▼ ▼</div>
+
+    <div class="layer layer-mid">
+      <div class="layer-accent"></div>
+      <div class="badge">✦ DURABLE</div>
+      <div class="layer-label">Middle Layer — Portable Intent</div>
+      <div class="layer-title">AGENTS.md</div>
+      <div class="layer-desc">Operational context that persists. Rules, boundaries, behaviors — defined once, works everywhere.</div>
+      <div class="layer-tags">
+        <span class="tag">Portable</span>
+        <span class="tag">Vendor-Agnostic</span>
+        <span class="tag">Declarative</span>
+        <span class="tag">Governance</span>
+      </div>
+      <div class="layer-accent-bottom"></div>
+    </div>
+
+    <div class="arrow-between">▼ ▼ ▼</div>
+
+    <div class="layer layer-bottom">
+      <div class="change-badge">↕ SWAPPABLE</div>
+      <div class="layer-label">Bottom Layer</div>
+      <div class="layer-title">AI Models & Runtimes</div>
+      <div class="layer-desc">Models are swappable. Switch providers without rewriting your instructions.</div>
+      <div class="layer-tags">
+        <span class="tag">OpenAI</span>
+        <span class="tag">Anthropic</span>
+        <span class="tag">Cursor</span>
+        <span class="tag">Next Provider</span>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="footer">Context over tools. — Jon Sukarangsan</div>
+
+</body>
+</html>

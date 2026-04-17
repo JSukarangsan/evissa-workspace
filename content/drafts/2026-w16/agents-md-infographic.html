@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    width: 1080px;
+    background: #f5f2eb;
+    font-family: -apple-system, 'Helvetica Neue', Arial, sans-serif;
+    padding: 80px 100px;
+    color: #1a1a1a;
+  }
+
+  .title {
+    font-size: 34px;
+    font-weight: 700;
+    margin-bottom: 12px;
+    letter-spacing: -0.5px;
+  }
+
+  .subtitle {
+    font-size: 15px;
+    color: #888;
+    margin-bottom: 64px;
+    font-weight: 400;
+  }
+
+  .stack {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0;
+  }
+
+  .layer {
+    width: 100%;
+    padding: 32px 40px;
+    border: 1.5px solid #ccc;
+    position: relative;
+  }
+
+  .layer-top {
+    border-radius: 4px 4px 0 0;
+    border-bottom: 1px dashed #ccc;
+  }
+
+  .layer-mid {
+    background: #c85a3a;
+    border-color: #c85a3a;
+    color: #fff;
+  }
+
+  .layer-bottom {
+    border-radius: 0 0 4px 4px;
+    border-top: 1px dashed #ccc;
+  }
+
+  .layer-label {
+    font-size: 11px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 8px;
+  }
+
+  .layer-top .layer-label,
+  .layer-bottom .layer-label {
+    color: #999;
+  }
+
+  .layer-mid .layer-label {
+    color: rgba(255,255,255,0.7);
+  }
+
+  .layer-name {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 4px;
+  }
+
+  .layer-desc {
+    font-size: 15px;
+    line-height: 1.5;
+    font-weight: 400;
+  }
+
+  .layer-top .layer-desc,
+  .layer-bottom .layer-desc {
+    color: #888;
+  }
+
+  .layer-mid .layer-desc {
+    color: rgba(255,255,255,0.85);
+  }
+
+  .layer-badge {
+    position: absolute;
+    top: 20px;
+    right: 24px;
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+  }
+
+  .layer-top .layer-badge,
+  .layer-bottom .layer-badge {
+    color: #bbb;
+  }
+
+  .layer-mid .layer-badge {
+    color: rgba(255,255,255,0.6);
+    border: 1px solid rgba(255,255,255,0.3);
+    padding: 3px 10px;
+    border-radius: 3px;
+  }
+
+  .arrow-zone {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 14px 0;
+    color: #bbb;
+    font-size: 14px;
+    letter-spacing: 4px;
+  }
+
+  .examples {
+    margin-top: 10px;
+    font-size: 14px;
+    font-style: italic;
+  }
+
+  .layer-top .examples,
+  .layer-bottom .examples {
+    color: #aaa;
+  }
+
+  .layer-mid .examples {
+    color: rgba(255,255,255,0.6);
+  }
+
+  .footer {
+    margin-top: 56px;
+    font-size: 14px;
+    color: #bbb;
+    text-align: right;
+  }
+</style>
+</head>
+<body>
+
+  <div class="title">The AGENTS.md Layer</div>
+  <div class="subtitle">Separating intent from runtime</div>
+
+  <div class="stack">
+
+    <div class="layer layer-top">
+      <div class="layer-badge">↕ changes</div>
+      <div class="layer-label">Your Projects & Teams</div>
+      <div class="layer-name">What you're building</div>
+      <div class="layer-desc">Products, workflows, and team needs evolve constantly.</div>
+      <div class="examples">Projects, use cases, team structure</div>
+    </div>
+
+    <div class="arrow-zone">▼ ▼ ▼</div>
+
+    <div class="layer layer-mid">
+      <div class="layer-badge">durable</div>
+      <div class="layer-label">Portable Intent</div>
+      <div class="layer-name">AGENTS.md</div>
+      <div class="layer-desc">Operational context defined once. Rules, boundaries, behaviors — works everywhere.</div>
+      <div class="examples">Vendor-agnostic, declarative, governs agent behavior</div>
+    </div>
+
+    <div class="arrow-zone">▼ ▼ ▼</div>
+
+    <div class="layer layer-bottom">
+      <div class="layer-badge">↕ swappable</div>
+      <div class="layer-label">AI Models & Runtimes</div>
+      <div class="layer-name">What runs underneath</div>
+      <div class="layer-desc">Switch providers without rewriting your instructions.</div>
+      <div class="examples">OpenAI, Anthropic, Cursor, next provider</div>
+    </div>
+
+  </div>
+
+  <div class="footer">Context over tools. — Jon Sukarangsan</div>
+
+</body>
+</html>

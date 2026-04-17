@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    width: 1080px;
+    font-family: -apple-system, 'Helvetica Neue', Arial, sans-serif;
+    background: #f5f2eb;
+    color: #1a1a1a;
+    padding: 80px 100px 72px;
+  }
+
+  h1 {
+    font-size: 34px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 72px;
+    letter-spacing: -0.5px;
+  }
+
+  /* The three-stage flow */
+  .flow {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 0;
+    margin-bottom: 80px;
+    position: relative;
+  }
+
+  .stage {
+    width: 240px;
+    text-align: center;
+  }
+
+  .stage .box {
+    width: 220px;
+    margin: 0 auto;
+    padding: 32px 20px;
+    border: 1.5px solid #ccc;
+    border-radius: 4px;
+    background: transparent;
+    min-height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .stage.active .box {
+    background: #c85a3a;
+    border-color: #c85a3a;
+  }
+
+  .stage .name {
+    font-size: 20px;
+    font-weight: 700;
+    color: #1a1a1a;
+    margin-bottom: 6px;
+  }
+  .stage.active .name {
+    color: #fff;
+  }
+
+  .stage .focus {
+    font-size: 14px;
+    font-style: italic;
+    color: #888;
+  }
+  .stage.active .focus {
+    color: rgba(255,255,255,0.75);
+  }
+
+  .stage .year {
+    font-size: 13px;
+    color: #999;
+    margin-top: 14px;
+  }
+  .stage.active .year {
+    color: #c85a3a;
+  }
+
+  .arrow-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    padding-top: 40px;
+  }
+  .arrow-container svg {
+    overflow: visible;
+  }
+
+  /* Divider */
+  .divider {
+    width: 100%;
+    height: 1px;
+    background: #ddd;
+    margin-bottom: 56px;
+  }
+
+  /* Bottom section: the key insight */
+  .insight {
+    text-align: center;
+    max-width: 640px;
+    margin: 0 auto;
+  }
+  .insight .label {
+    font-size: 13px;
+    font-weight: 600;
+    color: #999;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+  }
+  .insight .main {
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 1.6;
+    color: #333;
+  }
+  .insight .main strong {
+    font-weight: 700;
+    color: #1a1a1a;
+  }
+  .insight .main em {
+    font-style: italic;
+    color: #c85a3a;
+  }
+
+  .footnote {
+    text-align: center;
+    font-size: 12px;
+    color: #bbb;
+    margin-top: 56px;
+  }
+</style>
+</head>
+<body>
+
+  <h1>The evolution of making AI useful</h1>
+
+  <div class="flow">
+    <div class="stage">
+      <div class="box">
+        <div class="name">Prompt<br>Engineering</div>
+        <div class="focus">Better questions</div>
+      </div>
+      <div class="year">2023–24</div>
+    </div>
+
+    <div class="arrow-container">
+      <svg width="40" height="16" viewBox="0 0 40 16">
+        <line x1="0" y1="8" x2="32" y2="8" stroke="#ccc" stroke-width="1.5"/>
+        <polygon points="32,3 40,8 32,13" fill="#ccc"/>
+      </svg>
+    </div>
+
+    <div class="stage">
+      <div class="box">
+        <div class="name">Context<br>Engineering</div>
+        <div class="focus">Better input</div>
+      </div>
+      <div class="year">2025</div>
+    </div>
+
+    <div class="arrow-container">
+      <svg width="40" height="16" viewBox="0 0 40 16">
+        <line x1="0" y1="8" x2="32" y2="8" stroke="#ccc" stroke-width="1.5"/>
+        <polygon points="32,3 40,8 32,13" fill="#ccc"/>
+      </svg>
+    </div>
+
+    <div class="stage active">
+      <div class="box">
+        <div class="name">Agent<br>Harnesses</div>
+        <div class="focus">Better behavior</div>
+      </div>
+      <div class="year">2026</div>
+    </div>
+  </div>
+
+  <div class="divider"></div>
+
+  <div class="insight">
+    <div class="label">The question nobody's asking</div>
+    <div class="main">
+      Your team is building agents.<br>
+      <em>Who's building the harness<br>that keeps them on the rails?</em>
+    </div>
+  </div>
+
+  <div class="footnote">Jon Sukarangsan · Summer Friday & Partners</div>
+
+</body>
+</html>
