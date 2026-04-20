@@ -43,3 +43,10 @@ q2_pillar: "Context Over Tools"
 - Agent sprawl stats: Avg enterprise deploys 12 AI agents, only 27% connected to the rest of the stack (Salesforce 2026 Connectivity Benchmark). 80%+ of Fortune 500 have active agents, many built by non-platform teams.
 - Gap in coverage: Almost all harness content is engineer-to-engineer. Nobody is talking about who decides what the harness allows — the governance/ops layer. That's Jon's opening.
 - Jon's unique angle: Harnesses aren't a new infrastructure category. They're the natural evolution of context engineering → now you're engineering the behavioral context of agents, not just the informational context. This maps directly to his AI Operations thesis — harnesses are an ops discipline, not a tooling choice.
+
+## Update 2026-04-19: "The Agent Harness Wars" Angle
+- New framing from Jon: "The Agent Harness Wars Have Begun" — everyone's fighting over who controls the execution environment. "Context Over Tools" is playing out at the infrastructure level
+- This escalates the idea from trend observation to competitive landscape analysis
+- War framing works: who wins the harness layer wins the agent economy. It's the new platform play
+- Additional angle: The harness wars are a proxy war for control of context. Whoever owns the execution environment owns what the agent sees, does, and remembers. That's Jon's "Context Over Tools" pillar made literal
+- Consider splitting into two pieces: (1) the evolutionary arc (original idea), (2) the competitive landscape / "wars" piece (sharper, more timely, better LinkedIn hook)
