@@ -32,21 +32,21 @@ _[1-2 sentence intro: the biggest theme today and why it matters for AI Operatio
 
 *📰 UPDATES*
 
-• <https://example.com/article-url|*Title*> (Source) — Summary sentence.
+• *<https://example.com/article-url|Title>* (Source) — Summary sentence.
 
-• <https://example.com/article-url|*Title*> (Source) — Summary sentence.
+• *<https://example.com/article-url|Title>* (Source) — Summary sentence.
 
-[5-8 items total]
+[6-10 items total]
 
 ——————————————
 
 *🧠 PERSPECTIVES*
 
-• <https://example.com/article-url|*Title*> (Author/Source) — Summary of the key insight.
+• *<https://example.com/article-url|Title>* (Author/Source) — Summary of the key insight.
 
-• <https://example.com/article-url|*Title*> (Author/Source) — Summary of the key insight.
+• *<https://example.com/article-url|Title>* (Author/Source) — Summary of the key insight.
 
-[3-5 items total]
+[4-6 items total]
 
 ——————————————
 
@@ -67,12 +67,11 @@ _[1-2 sentence intro: the biggest theme today and why it matters for AI Operatio
 
 ### Critical Formatting Rules
 
-- **Link titles directly.** Use Slack link syntax `<url|*Title*>` so the title itself is clickable. Do NOT put bare URLs on separate lines.
-- **Suppress unfurls.** When sending digests, always suppress link previews/thumbnails (no inline unfurls).
+- **Every article title MUST be a bold clickable link** using the format `*<url|Title>*`. This renders as bold linked text in Slack. Do NOT put bare URLs on separate lines — embed the link in the title so it's scannable and clickable.
 - **Updates vs Perspectives is mandatory.** Don't lump everything together.
   - Updates = news, announcements, product launches, funding, releases
   - Perspectives = essays, analysis, opinion, frameworks, thought leadership, podcasts
-- **Aim for 8-13 total items** across both sections. Don't pad, but don't be stingy.
+- **Aim for 10-15 total items** across both sections. Don't pad, but don't be stingy.
 - **Pipeline section is one line.** Keep it compact.
 - **Source attribution** in parentheses after the title: (TechCrunch), (a16z), (Anthropic), etc.
 - **Use Slack formatting only:** `*bold*` for emphasis, `_italic_` for titles. Do NOT use `**markdown bold**` — it doesn't work in Slack.

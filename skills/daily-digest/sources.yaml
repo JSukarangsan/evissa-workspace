@@ -1,35 +1,60 @@
 # Daily Digest Source List
 # Edit this file to add/remove sources. The daily-digest skill reads this at runtime.
 # No need to touch SKILL.md when changing sources.
+# Sourced from Jon's Inoreader feed list.
+
+# ——————————————————————————————
+# PRODUCT
+# ——————————————————————————————
 
 sources:
-  - name: Anthropic News & Announcements
-    url: https://www.anthropic.com/news
-    why: Product releases, model launches, policy updates — first to know about Claude changes
+  - name: uxdesign.cc
+    url: https://uxdesign.cc
+    why: UX and product design trends, design thinking perspectives
+
+
+  - name: Lenny's Newsletter
+    url: https://www.lennysnewsletter.com
+    why: Product management insights, growth tactics, PM career advice
+
+
+
+# ——————————————————————————————
+# AI
+# ——————————————————————————————
+
 
   - name: OpenAI Blog
     url: https://openai.com/blog
     why: Industry moves, product launches, competitive landscape
 
-  - name: a16z AI
-    url: https://a16z.com/ai/
-    why: Strategic/investment lens on AI trends
-
   - name: The Deep View
     url: https://thedeepview.co
     why: Curated AI analysis, high signal
 
-  - name: Exponential View
-    url: https://www.exponentialview.co
-    why: Macro trends, Benedict Evans-style analysis
+  - name: AI + a16z
+    url: https://a16z.com/ai/
+    why: Strategic/investment lens on AI trends
+
+  - name: Anthropic Blog
+    url: https://www.anthropic.com/news
+    why: Official Anthropic updates, product releases, company news
+
+  - name: AI Supremacy
+    url: https://aisupremacy.substack.com
+    why: Opinionated takes on AI industry
+
+  - name: AI and I
+    url: https://www.aiandi.substack.com
+    why: Applied AI perspectives
+
+  - name: The Neuron
+    url: https://www.theneurondaily.com
+    why: Daily AI news digest, accessible format
 
   - name: TheSequence
     url: https://thesequence.substack.com
     why: Technical depth on AI/ML developments
-
-  - name: Superhuman Blog
-    url: https://blog.superhuman.com
-    why: AI product patterns, UX of AI
 
   - name: How I AI
     url: https://howiai.substack.com
@@ -39,13 +64,23 @@ sources:
     url: https://beyondtheprompt.substack.com
     why: Applied AI, workflow-level thinking
 
-  - name: AI Supremacy
-    url: https://aisupremacy.substack.com
-    why: Opinionated takes on AI industry
+  - name: Everyday AI Podcast
+    url: https://www.everydayai.com
+    why: Practical AI adoption, ChatGPT use cases, accessible AI coverage
 
-  - name: AI and I
-    url: https://www.aiandi.substack.com
-    why: Applied AI perspectives
+  - name: Superhuman Blog
+    url: https://blog.superhuman.com
+    why: AI product patterns, UX of AI
+
+  - name: The Rundown AI
+    url: https://www.therundown.ai
+    why: Daily AI news roundup, broad coverage
+
+  - name: Exponential View
+    url: https://www.exponentialview.co
+    why: Macro trends, Benedict Evans-style analysis
+
+
 
 # To add a source, just append:
 #  - name: Source Name
