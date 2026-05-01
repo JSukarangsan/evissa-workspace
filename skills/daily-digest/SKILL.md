@@ -88,8 +88,9 @@ To add/remove sources, edit `sources.yaml` — no need to modify this skill file
 In addition to the source list, search the web for breaking news on:
 1. **AI operations and implementation patterns** at product teams
 2. **Context engineering, agent orchestration, AI infrastructure**
-3. **Enterprise AI adoption failures and successes**
-4. **Competitor content** in the AI consulting/advisory space on LinkedIn
+3. **Product dev and marketing practitioner use cases** — design-to-code, agent integrations into tools (Figma, Linear, Jira), AI in research/testing, ad creative automation
+4. **Enterprise AI adoption failures and successes** — case studies with real numbers
+5. **Competitor content** in the AI consulting/advisory space on LinkedIn
 
 ### Deduplication
 - Check `content/digests/` for the last 3 days of digests
@@ -101,6 +102,7 @@ In addition to the source list, search the web for breaking news on:
 - **High signal, low noise.** If there's nothing important, say so. Don't pad the briefing.
 - **Actionable insights.** Every item should have a "why it matters" or "what to do with this."
 - **Jon's lens.** Filter everything through "AI Operations for Product Teams" - skip generic AI hype.
+- **Two altitudes.** Every briefing needs BOTH C-suite/infrastructure stories AND practitioner-level stories (how teams actually use this stuff). Aim for at least 2-3 items a product manager or marketing lead would immediately forward to their team.
 - **Be opinionated.** Flag what's interesting vs. what's noise. Jon trusts your judgment.
 - **Include the spark.** The best briefings have one unexpected connection that makes Jon think.
 
