@@ -77,6 +77,14 @@ _[1-2 sentence intro: the biggest theme today and why it matters for AI Operatio
 - **Use Slack formatting only:** `*bold*` for emphasis, `_italic_` for titles. Do NOT use `**markdown bold**` — it doesn't work in Slack.
 - **No markdown.** This is Slack, not markdown. No `##`, no `**`, no `[text](url)`.
 
+## ⚠️ HARD RULES — NON-NEGOTIABLE
+
+1. **Max 1 item per source, per digest. No exceptions.** If Every.to has 10 great articles, pick the single best one. Same for The Rundown AI, Anthropic, or any other source. A digest with 4 Every.to items is a failure.
+2. **Check your work before posting.** Before sending to Slack, count items per source. If any source appears more than once, cut the extras.
+3. **Bucket targets are hard floors AND ceilings.** AI: 3–4 items. Product: 1–2. Marketing & GTM: 1–2. Do not exceed the ceiling or fall below the floor.
+
+---
+
 ## Research Sources
 
 ### Curated Sources
@@ -96,6 +104,15 @@ In addition to the source list, search the web for breaking news on:
 - Check `content/digests/` for the last 3 days of digests
 - Never repeat an article that appeared in a recent digest
 - If a story was covered yesterday, only mention it again if there's a significant update
+- **1-item-per-source cap.** Include at most 1 item from any single source per digest. If a source has multiple strong items, pick the best one.
+
+### Bucket Balancing
+When selecting items across sections (Updates + Perspectives combined), target these per-bucket counts:
+- **AI** — 3–4 items
+- **Product** — 1–2 items
+- **Marketing & GTM** — 1–2 items
+
+Do not let any one bucket dominate. Apply the 1-item-per-source cap within each bucket first, then select the highest-signal items to hit the bucket targets.
 
 ## Quality Rules
 
@@ -125,6 +142,18 @@ Save each digest to `content/digests/daily-[YYYY-MM-DD].md` for reference.
 - Total message should be readable in 2-3 minutes.
 - If a signal is particularly strong, bold it or add a fire emoji.
 - Thread any detailed context (don't clutter the main message).
+
+## CRITICAL: Pre-Post Checklist
+
+Before posting to Slack, verify ALL of the following:
+- [ ] No source appears more than once across the entire digest
+- [ ] AI bucket: 3–4 items total
+- [ ] Product bucket: 1–2 items total
+- [ ] Marketing & GTM bucket: 1–2 items total
+- [ ] Every item has a working clickable link
+- [ ] Pipeline section is accurate
+
+If any check fails, revise before posting. Do not skip this step.
 
 ## CRITICAL: Output Discipline
 

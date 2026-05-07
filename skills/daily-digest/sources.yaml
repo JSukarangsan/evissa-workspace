@@ -8,10 +8,6 @@
 # ——————————————————————————————
 
 sources:
-  - name: uxdesign.cc
-    url: https://uxdesign.cc
-    why: UX and product design trends, design thinking perspectives
-
   - name: Lenny's Newsletter
     url: https://www.lennysnewsletter.com
     why: Product management insights, growth tactics, PM career advice
@@ -45,10 +41,6 @@ sources:
     url: https://www.marketingaiinstitute.com/blog
     why: AI in marketing use cases, practitioner-level adoption stories
 
-  - name: HubSpot Blog
-    url: https://blog.hubspot.com/marketing
-    why: Marketing automation, AI in GTM, practitioner workflows
-
   - name: Every.to
     url: https://every.to
     why: Applied AI essays, workflow teardowns, practitioner perspectives
@@ -57,16 +49,16 @@ sources:
     url: https://www.reforge.com/blog
     why: Growth strategy, product-led growth, team-level execution patterns
 
+  - name: Kieran Flanagan
+    url: https://www.kieranflanagan.io
+    why: GTM strategy, AI in marketing/growth, practitioner-level
+
 
 
 # ——————————————————————————————
 # AI
 # ——————————————————————————————
 
-
-  - name: OpenAI Blog
-    url: https://openai.com/blog
-    why: Industry moves, product launches, competitive landscape
 
   - name: The Deep View
     url: https://thedeepview.co
@@ -121,38 +113,6 @@ sources:
     why: Macro trends, Benedict Evans-style analysis
 
 
-
-# ——————————————————————————————
-# PRACTITIONER / IMPLEMENTATION
-# ——————————————————————————————
-
-  - name: Hacker News (front page)
-    url: https://news.ycombinator.com
-    why: Technical signal, eng blog teardowns, implementation stories, community sentiment
-
-  - name: Simon Willison's Weblog
-    url: https://simonwillison.net
-    why: Hands-on AI tooling reviews, LLM implementation patterns, practitioner lens
-
-  - name: Pragmatic Engineer
-    url: https://blog.pragmaticengineer.com
-    why: Engineering team practices, tool adoption, org patterns at scale
-
-  - name: MIT Sloan Management Review
-    url: https://sloanreview.mit.edu
-    why: Enterprise AI adoption case studies, implementation patterns with real numbers
-
-  - name: HBR - AI/Technology
-    url: https://hbr.org/topic/subject/ai-and-machine-learning
-    why: C-suite AI strategy, enterprise transformation stories
-
-# ——————————————————————————————
-# SUBSTACKS (Jon-curated)
-# ——————————————————————————————
-
-  - name: Kieran Flanagan
-    url: https://www.kieranflanagan.io
-    why: GTM strategy, AI in marketing/growth, practitioner-level
 
   - name: Proof of Concept
     url: https://www.proofofconcept.pub
